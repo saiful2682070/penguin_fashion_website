@@ -19,17 +19,30 @@
         .roboto {
             font-family: "Roboto", sans-serif;
         }
+        .w72{
+            width:293px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Header Start -->
-    <header class="bg-[#FFFBF0] p-3">
-        <nav>
-
+    <header class="bg-[#FFFBF0] p-3.5">
+        <nav class="md:flex md:justify-around md:items-center mt-10">
+            <div class="w-72">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex justify-around gap-14 roboto text-base font-medium text-[#3C3C3C]">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About US</a></li>
+                    <li><a href="">Contacts US</a></li>
+                </ul>
+            </div>
         </nav>
         <!-- Banner Start -->
-        <div class="ml-4 mr-4 md:flex md:justify-around md:items-center">
+        <div class="md:flex md:justify-around md:items-center">
             <div>
                 <h1 class="bebas_neue uppercase text-7xl mb-2"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
                     <span class="text-[#363958]">of Winter</span>
